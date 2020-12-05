@@ -525,6 +525,11 @@ mark,
 	transition: 0.3s;
 }
 
+.card-img:hover {
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
