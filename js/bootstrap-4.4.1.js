@@ -21,6 +21,10 @@
       Object.defineProperty(target, descriptor.key, descriptor);
     }
   }
+
+$('iframe.yt-hd-thumbnail').youTubeHDThumbnail({
+	darkenThumbnail: false
+});
 										
 // Get the modal
 var modal = document.getElementById("myModal");									
